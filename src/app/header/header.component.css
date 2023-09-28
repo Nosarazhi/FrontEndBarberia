@@ -1,0 +1,11 @@
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100vh; /* Esto hace que el contenedor ocupe toda la altura de la pantalla */
+  }
+  
+  .contacto p, .contacto address {
+    margin: 0;
+  }

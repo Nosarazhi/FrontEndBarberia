@@ -1,0 +1,39 @@
+.servicios {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .servicios h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .servicios ul {
+    list-style-type: none;
+  }
+  
+  .servicios li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+
+  .back-button {
+    margin-top: 20px;
+  }
+
+  .back-button a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button a:hover {
+    background-color: #0056b3;
+  }
