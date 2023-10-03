@@ -17,27 +17,10 @@
   padding: 20px 0;
 }
 
-.servicios ul {
-  list-style-type: none;
-  text-align: center;
+.servicios h2 p {
+  margin: 0;
+  padding: 0;
+
 }
 
-.servicios li {
-  display: inline;
-  margin-right: 20px;
-  text-align: center;
-}
 
-.back-button {
-  margin-top: 20px;
-}
-
-.back-button a {
-  text-decoration: none;
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
