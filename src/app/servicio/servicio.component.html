@@ -1,10 +1,16 @@
 <section class="servicios">
   <h2>Nuestros Servicios</h2>
-  <ul>
-    <li><a routerLink="/servicios">Ver Todos los Servicios</a></li>
-  </ul>
       <!-- Agrega más servicios aquí -->
-      <div class="back-button">
+      <div *ngFor="let servicio of servicios" class="servicio">
+        <div class="nombre">{{ servicio.nombre }}</div>
+        <img [src]="servicio.imagen" alt="{{servicio.nombre}}">
+        <div class="descripcion">{{ servicio.descripcion }}</div>
+      </div>
+<!--
+     <div class="back-button">
         <a routerLink="/">Volver</a>
       </div>
-</section>
+--> 
+
+
+
