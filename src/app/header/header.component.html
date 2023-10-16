@@ -2,15 +2,22 @@
     <h1>Barbería El Corte Perfecto</h1>
     <nav>
       <ul>
-        <li><a routerLink="/servicios">Nuestros Servicios</a></li>
         <li><a routerLink="/turnos">Pedi tu Turno</a></li>
       </ul>
     </nav>
 </header>
-
+<h2>
+  <p>Nuestra Barberia ofrece los siguientes servicios</p>
+</h2>
+<section class="servicios">
+  <div *ngFor="let servicio of servicios" class="servicio">
+    <div class="nombree">{{ servicio.nombre }}</div>
+    <img [src]="servicio.imagen" alt="{{servicio.nombre}}">
+  </div>
+</section>
 <section class="contacto">
-  <h2>Contacto</h2>
-  <p>Estamos ubicados en Calle Principal, 123, Ciudad, País</p>
-  <p>Puedes llamarnos al: <a href="tel:+123456789">123-456-789</a></p>
+    <h3>Contacto</h3>
+    <p>Estamos ubicados en Calle Principal, 123, Ciudad, País</p>
+    <p>Puedes llamarnos al: <a href="tel:+123456789">123-456-789</a></p>
 </section>
   

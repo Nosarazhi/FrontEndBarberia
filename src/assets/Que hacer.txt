@@ -1,0 +1,21 @@
+/*Servicios
+
+Encontrar forma de eliminar el componente servicio o poder referenciarlo para eliminar codigo residual
+
+
+*/
+
+/* Header
+
+ Eliminar lineas negras entre cada servicio de la barberia
+ Ajustar Tamaño de las fotos y posicion
+ Encontrar una fuente para el nombre de cada servicio
+ Encontrar fotos para cada servicio / Generarlas con IA
+
+*/
+
+/* Turnos
+
+ Ver como lo hago 
+
+*/
