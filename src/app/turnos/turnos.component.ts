@@ -32,7 +32,7 @@ export class TurnosComponent implements OnInit {
         hora: horaFormateada
       };
 
-      this.http.post('URL_DE_TU_API', turno).subscribe(
+      this.http.post('127.0.0.1:8000', turno).subscribe(
         response => console.log(response),
         error => console.log(error)
       );
